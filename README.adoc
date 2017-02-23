@@ -1,0 +1,10 @@
+= Grzeslack
+
+== Running
+
+Run your bot from the command line:
+`clientId=<my client id> clientSecret=<my client secret> port=3000 node grzeslack-app.js`
+
+== Deploying to heroku
+
+`git push heroku master`
