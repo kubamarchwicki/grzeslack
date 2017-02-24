@@ -1,0 +1,21 @@
+{
+  "name": "grzeslack",
+  "version": "0.0.1",
+  "description": "Coach Grzeslack",
+  "main": "grzeslack-app.js",
+  "dependencies": {
+    "botkit": "*"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trojmiasto-jug/grzeslack.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trojmiasto-jug/grzeslack/issues"
+  },
+  "homepage": "https://github.com/trojmiasto-jug/grzeslack#readme"
+}
