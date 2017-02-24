@@ -109,5 +109,9 @@ controller.hears('', ['direct_message', 'direct_mention', 'mention'], function(b
 		}
 	});
 
+	if(max.matched === 0) {
+		max.index = Math.floor((Math.random() * db.length));
+	}
+
 	bot.reply(message, host + resources + db[max.index].filename);	
 });
